@@ -11,6 +11,8 @@ soup = BeautifulSoup(web.read())
 
 tags_a =soup.findAll(name="a",attrs={'href':re.compile("^https?://")})
 
-for tag_a in tags_a:
+print tags_a
 
-  print tag_a["href"]
+#for tag_a in tags_a:
+
+ # print tag_a["href"]
